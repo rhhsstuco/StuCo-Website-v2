@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <style type="text/css"></style>
+        <title>Gallery</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i ></i> RHHS STUCO
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="events.html" class="nav__link";>Events</a>
+                        </li> 
+                        <li class="nav__item">
+                            <a href="gallery.html" class="nav__link active-link">Gallery</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="clubs.html" class="nav__link">Clubs</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="gallery-data">
+                    <h1 class="home__title">
+                        Gallery
+                    </h1>
+                    <p class="gallery-desc">
+                        A look into our 2022 -2023 school year
+                    </p>
+                </div>
+                <div class="full-img" id="fullImgBox">
+                    <img src="assets/img/ZLY_0656AH.JPG" id="fullImg">
+                    <span onclick="closeFullImg()">X</span>
+                </div>
+                <div class="img-gallery">
+                    <img src="assets/img/ZLY_0656AH.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9541.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0721AH.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0815AH.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0977AH.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0824.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0968AH.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9542.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_7221.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9562.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_7222.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_7225.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_7227.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_7228.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/BC6BB5DB-EE52-4B63-9F88-E5806B9C1C98.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9494.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9497.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_8201.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9504.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_8203.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0709AH.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9547.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9553.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9567.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0990AH.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_9569.JPG" onclick="openFullImg(this.src)">
+                    <img src="assets/img/87CCF027-02F4-47E1-A123-CAE0AB86D8F9.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/E5E0D4F2-4B71-45DC-A8B0-E04F9431F104.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0695AH.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0698AH.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/IMG_8204.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0717AH.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0871AH.jpg" onclick="openFullImg(this.src)">
+                    <img src="assets/img/ZLY_0908AH.jpg" onclick="openFullImg(this.src)">
+                </div>
+                <script>
+                    var fullImgBox = document.getElementById("fullImgBox")
+                    var fullImg = document.getElementById("fullImg");
+                    function openFullImg(pic){
+                        fullImgBox.style.display = "flex";
+                        fullImg.src = pic;
+                    }
+
+                    function closeFullImg(){
+                        fullImgBox.style.display = "none";
+                    }
+
+                </script>
+            </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+        
+
+                <div class="footer__content">
+                    <h3 class="footer__title">School Info</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">Richmond Hill - Ontario - Canada</li>
+                        <li class="footer__information">201 Yorkland Street - L4S 1A2</li>
+                        <li class="footer__information">(905) 884-2131</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <div class="footer__social">
+                            <a href="https://www.instagram.com/rhhs_stuco/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                                
+                            </a>
+                            <a href="https://twitter.com/RHHS_StuCo/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                                
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
