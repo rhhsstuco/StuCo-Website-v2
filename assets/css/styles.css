@@ -1081,8 +1081,8 @@ body-cal{
 }
 
 .img-gallery img:hover{
-  transform: scale(0.95);
-  border-radius:  20px;
+  transform: scale(0.96);
+  border-radius:  10px;
   box-shadow: 0 32px 75px;
 }
 
