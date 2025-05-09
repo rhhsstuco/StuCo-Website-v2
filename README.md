@@ -1,4 +1,4 @@
-# 🎓 RRHS StuCo Website (2022-2023)
+# 🎓 RHHS StuCo Website (2022-2023)
 
 A dynamic platform designed to connect and engage the RHHS student community. This website serves as a central hub for event announcements, student resources, and important school updates, fostering a stronger sense of community and school spirit.
 
